@@ -1,0 +1,491 @@
+body{
+	margin: 0;
+	background-color: #ff6b5c;
+	height: 800px;
+	transition: .5s;
+}
+h1{
+	font-size: 50px;
+	color: #7a332c;
+	transition: 1s;
+}
+.consejo-up, .consejo-right, .consejo-right2{
+	font-size: 15px;
+}
+.consejo-up{
+	position: absolute;
+	top: 30px;
+}
+.consejo-right, .consejo-right2{
+	position: absolute;
+	right: 30px;
+}
+.consejo-right2{
+	opacity: 0;
+}
+.container{
+	position: relative;
+}
+.container, .cara{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container .fuck{
+	display: none;
+	transition: 2s;
+}
+.carita{
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	transition: .3s;
+}
+h3{
+	transition: .3s;
+}
+
+.frase{
+	opacity: 0;
+	transition: .3s;
+}
+.w1{
+	transition: .3s;
+	opacity: 0;
+}
+.w2{
+	transition: .6s;
+	opacity: 0;
+}
+.w3{
+	transition: .9s;
+	opacity: 0;
+}
+.w4{
+	transition: 1.2s;
+	opacity: 0;
+}
+.w5{
+	transition: 1.5s;
+	opacity: 0;
+}
+.w6{
+	transition: 1.8s;
+	opacity: 0;
+}
+.w7{
+	transition: 2.1s;
+	opacity: 0;
+}
+.w8{
+	transition: 2.4s;
+	opacity: 0;
+}
+.w9{
+	transition: 2.7s;
+	opacity: 0;
+}
+.w10{
+	transition: 3.0s;
+	opacity: 0;
+}
+.w11{
+	transition: 3.3s;
+	opacity: 0;
+}
+.w12{
+	transition: 3.6s;
+	opacity: 0;
+}
+.w13{
+	transition: 3.9s;
+	opacity: 0;
+}
+.w14{
+	transition: 4.2s;
+	opacity: 0;
+}
+.w15{
+	transition: 4.5s;
+	opacity: 0;
+}
+.w16{
+	transition: 4.8s;
+	opacity: 0;
+}
+.w17{
+	transition: 5.1s;
+	opacity: 0;
+}
+.w18{
+	transition: 5.4s;
+	opacity: 0;
+}
+.w19{
+	transition: 5.7s;
+	opacity: 0;
+}
+.w20{
+	transition: 6s;
+	opacity: 0;
+}
+.w21{
+	transition: 6.3s;
+	opacity: 0;
+}
+.w22{
+	transition: 6.6s;
+	opacity: 0;
+}
+.w23{
+	transition: 6.9s;
+	opacity: 0;
+}
+.w24{
+	transition: 7.2s;
+	opacity: 0;
+}
+.w25{
+	transition: 7.5s;
+	opacity: 0;
+}
+.w26{
+	transition: 7.8s;
+	opacity: 0;
+}
+.w27{
+	transition: 8.1s;
+	opacity: 0;
+}
+.w28{
+	transition: 8.4s;
+	opacity: 0;
+}
+.w29{
+	transition: 8.7s;
+	opacity: 0;
+}
+
+/*-----------------------MEDIA QUERIES WIDTH-----------------------*/
+@media screen and (max-width: 1600px){
+	.consejo-right{
+		animation: 1s salto infinite;
+	}
+}
+@media screen and (max-width: 1500px){
+	.consejo-right{
+		animation: none;
+		opacity: 0;
+	}
+	.consejo-right2{
+		opacity: 1;
+	}
+	body{
+		background-color: #fcb15d;
+	}
+	.hola{
+		transform: scale(2) rotate(15deg);
+		color: #7c582e;
+	}
+}
+@media screen and (max-width: 1200px){
+	.consejo-right2{
+		animation: 1s salto infinite;
+	}
+}
+@media screen and (max-width: 1100px){
+	body{
+		background-color: #f9f9f9;
+	}
+	h3{
+		opacity: 1;
+		font-size: 30px;
+	}
+	.container{
+		display: none;
+	}
+	.cara{
+		margin-top: 30px;
+		height: auto;
+		flex-direction: column;
+	}
+	.container .hola{
+		display: none;
+	}
+	.carita{
+		opacity: 1;
+	}
+}
+@media screen and (max-width: 500px){
+	body{
+		background-color: #badd7c;
+	}
+	.container{
+		display: none;
+	}
+	.cara{
+		display: none;
+	}
+
+	.frase{
+		opacity: 1;
+		font-size: 40px;
+		text-align: center;
+		
+	}
+	.w1{
+		animation: 4s prueba;
+		animation-delay: .7s;
+		animation-fill-mode: forwards;
+		color: red;
+	}
+	.w2{
+		animation: 4s prueba;
+		animation-delay: 1.4s;
+		animation-fill-mode: forwards;
+		color: blue;
+	}
+	.w3{
+		animation: 4s prueba;
+		animation-delay: 2.1s;
+		animation-fill-mode: forwards;
+		color: green;
+	}
+	.w4{
+		animation: 4s prueba;
+		animation-delay: 2.8s;
+		animation-fill-mode: forwards;
+		color: grey;
+	}
+	.w5{
+		animation: 4s prueba;
+		animation-delay: 3.5s;
+		animation-fill-mode: forwards;
+		color: brown;
+	}
+	.w6{
+		animation: 4s prueba;
+		animation-delay: 4.2s;
+		animation-fill-mode: forwards;
+		color: purple;
+	}
+	.w7{
+		animation: 4s prueba;
+		animation-delay: 4.9s;
+		animation-fill-mode: forwards;
+		color: lightblue;
+	}
+	.w8{
+		animation: 4s prueba;
+		animation-delay: 5.6s;
+		animation-fill-mode: forwards;
+		color: peru;
+	}
+	.w9{
+		animation: 4s prueba;
+		animation-delay: 6.3s;
+		animation-fill-mode: forwards;
+		color: lightgreen;
+	}
+	.w10{
+		animation: 4s prueba;
+		animation-delay: 7s;
+		animation-fill-mode: forwards;
+		color: orange;
+	}
+	
+	.w11{
+		animation: 4s prueba;
+		animation-delay: 7.7s;
+		animation-fill-mode: forwards;
+		color: lightgrey;
+	}
+	.w12{
+		animation: 4s prueba;
+		animation-delay: 8.4s;
+		animation-fill-mode: forwards;
+		color: violet;
+	}
+	.w13{
+		animation: 4s prueba;
+		animation-delay: 9.1s;
+		animation-fill-mode: forwards;
+		color: skyblue;
+	}
+	.w14{
+		animation: 4s prueba;
+		animation-delay: 9.8s;
+		animation-fill-mode: forwards;
+		color: darkgreen;
+	}
+	.w15{
+		animation: 4s prueba;
+		animation-delay: 10.5s;
+		animation-fill-mode: forwards;
+		color: darkblue;
+	}
+	.w16{
+		animation: 4s prueba;
+		animation-delay: 11.2s;
+		animation-fill-mode: forwards;
+		color: silver;
+	}
+	.w17{
+		animation: 4s prueba;
+		animation-delay: 11.9s;
+		animation-fill-mode: forwards;
+		color: maroon;
+	}
+	.w18{
+		animation: 4s prueba;
+		animation-delay: 12.6s;
+		animation-fill-mode: forwards;
+		color: fuchsia;
+	}
+	.w19{
+		animation: 4s prueba;
+		animation-delay: 13.3s;
+		animation-fill-mode: forwards;
+		color: pink;
+	}
+	.w20{
+		animation: 4s prueba;
+		animation-delay: 14s;
+		animation-fill-mode: forwards;
+		color: navy;
+	}
+	.w21{
+		animation: 4s prueba;
+		animation-delay: 14.7s;
+		animation-fill-mode: forwards;
+		color: darkgrey;
+	}
+	.w22{
+		animation: 4s prueba;
+		animation-delay: 15.4s;
+		animation-fill-mode: forwards;
+		color: turquoise;
+	}
+	.w23{
+		animation: 4s prueba;
+		animation-delay: 16.1s;
+		animation-fill-mode: forwards;
+		color: golden;
+	}
+	.w24{
+		animation: 4s prueba;
+		animation-delay: 16.8s;
+		animation-fill-mode: forwards;
+		color: lightred;
+	}
+	.w25{
+		animation: 4s prueba;
+		animation-delay: 17.5s;
+		animation-fill-mode: forwards;
+		color: darkred;
+	}
+	.w26{
+		animation: 4s prueba;
+		animation-delay: 18.2s;
+		animation-fill-mode: forwards;
+		color: lightblack;
+	}
+	.w27{
+		animation: 4s prueba;
+		animation-delay: 18.9s;
+		animation-fill-mode: forwards;
+		color: red;
+	}
+	.w28{
+		animation: 4s prueba;
+		animation-delay: 19.6s;
+		animation-fill-mode: forwards;
+		color: blue;
+	}
+	.w29{
+		animation: 4s prueba;
+		animation-delay: 20.3s;
+		animation-fill-mode: forwards;
+		color: grey;
+	}
+}
+
+/*-----------------------MEDIA QUERIES HEIGHT-----------------------*/
+@media screen and (max-height: 700px){
+	.consejo-up{
+		animation: 1s salto infinite;
+	}
+}
+@media screen and (max-height: 500px) and (min-width: 1100px){
+	body{
+		background-color: #fdf487; 
+		height: 115px;
+	}
+	.consejo-up, .consejo-right2, .consejo-right{
+		opacity: 0;
+	}
+	.cara h3{
+		opacity: 0;
+	}
+	.carita{
+		opacity: 0;
+	}
+	.container .hola{
+		display: none;
+	}
+	.container .fuck{
+		display: flex;
+	}
+
+	.fuck{
+		font-size: 200px;
+		animation: 4s fuckYou infinite;
+		animation-delay: 1s;
+	}
+}
+
+/*--------------------------KEYFRAMES------------------------------*/
+@keyframes fuckYou{
+
+	50%{
+		transform: scale(1.2);
+	}
+	65%{
+		transform: scale(1) rotate(-180deg);
+	}
+	65.1%{
+		transform: rotate(180deg);
+	}
+	80%{
+		transform: translate3d(10px, 40px, 20px);
+	}
+}
+@keyframes prueba{
+	0%{
+		font-size: 15px;
+	}
+	20%{
+		opacity: .2;
+	}
+	40%{
+		opacity: .4;
+	}
+	60%{
+		opacity: .6;
+	}
+	80%{
+		opacity: .8;
+	}
+	100%{
+		opacity: 1;
+		font-size: 40px;
+	}
+}
+@keyframes salto{
+	50%{
+		transform: translateY(-20px);
+		box-shadow: -13px -3px 75px 10px #c64739, 13px -5px 75px 10px #c64739, 27px -6px 75px 10px #c64739;
+	}
+}
